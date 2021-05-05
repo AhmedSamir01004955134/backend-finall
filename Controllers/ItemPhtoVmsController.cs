@@ -69,12 +69,9 @@ namespace FinallShope.Controllers
 
         // DELETE: api/ItemPhtoVms/5
         [HttpDelete("{id}")]
-        public IActionResult DeleteItemPhtoVm(int id, ItemPhtoVm itemPhtoVm)
+        public IActionResult DeleteItemPhtoVm(int id)
         {
-            if (id != itemPhtoVm.Id)
-            {
-                return NotFound("pleas Entar your requst id");
-            }
+            
             _context.Remove(id);
             return Ok();
         }

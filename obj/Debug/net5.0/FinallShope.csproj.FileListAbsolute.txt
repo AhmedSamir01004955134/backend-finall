@@ -155,3 +155,4 @@ D:\Angular\Angular\projict Finall\FinalBackEnd\FinallShope\FinallShope\obj\Debug
 D:\Angular\Angular\projict Finall\FinalBackEnd\FinallShope\FinallShope\obj\Debug\net5.0\ref\FinallShope.dll
 D:\Angular\Angular\projict Finall\FinalBackEnd\FinallShope\FinallShope\obj\Debug\net5.0\FinallShope.pdb
 D:\Angular\Angular\projict Finall\FinalBackEnd\FinallShope\FinallShope\obj\Debug\net5.0\FinallShope.genruntimeconfig.cache
+D:\Angular\Angular\projict Finall\FinalBackEnd\FinallShope\FinallShope\obj\Debug\net5.0\FinallShope.csprojAssemblyReference.cache

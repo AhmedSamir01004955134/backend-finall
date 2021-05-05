@@ -77,12 +77,9 @@ namespace FinallShope.Controllers
 
         // DELETE: api/Categories/5
         [HttpDelete("{id}")]
-        public IActionResult DeleteCategory(int id, CategoryVm category)
+        public IActionResult DeleteCategory(int id)
         {
-            if (id != category.Id)
-            {
-                return NotFound("pleas Entar your requst id");
-            }
+           
             _repo.Remove(id);
             return Ok();
         }

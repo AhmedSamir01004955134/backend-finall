@@ -67,13 +67,10 @@ namespace FinallShope.Controllers
 
         // DELETE: api/Shopes/5
         [HttpDelete("{id}")]
-        public IActionResult DeleteShope(int id,ShopeVm shope)
+        public IActionResult DeleteShope(int id)
         {
             
-            if (id!=shope.Id)
-            {
-                return NotFound("pleas Entar your requst id");
-            }
+            
             _context.Remove(id);
             return Ok();
         }
